@@ -1,0 +1,52 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    margin: 0;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    margin-bottom: 4em;
+}
+
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+header p {
+    font-size: 2rem;
+    font-style: italic;
+    margin: 0;
+    letter-spacing: -.08em;
+}
+
+article {
+    margin-bottom: 4em;
+    border-bottom: 10px solid rgba(240, 110, 87, 0.89);
+}
+
+/* grid */
+
+img {
+    max-width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1em;
+}
+
+.grid-item p {
+    margin: 0;
+}
